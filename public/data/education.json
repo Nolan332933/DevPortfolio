@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "year": "2012 - 2017",
+    "title": "High School Degree",
+    "description": "During my formative academic years, I attended Basic Education High School (BEHS) (2) Insein, where I completed my education from Grade 6 to Grade 11"
+  },
+  {
+    "id": 2,
+    "year": "2018 - 2020",
+    "title": "Bachelor Degree of Myanmar Maritime University (Myanmar)",
+    "description": "I pursued Civil Enginnering at Yangon Technology University, reaching the final year. Unfortunately, due to political unrest in my country, I was unable to obtain my degree."
+  },
+  {
+    "id": 3,
+    "year": "2021-2022 (HND)",
+    "title": "Auston University (Myanmar)",
+    "description": "I successfully completed the Higher National Diploma at Auston University, earning my first international certificate in the Computer Networking field."
+  },
+  {
+    "id": 4,
+    "year": "2022 - 2024",
+    "title": "European International University(EIU)",
+    "description": "I recently achieved Bachelor in the Information Technology by passing with above GPA 3.5."
+  },
+  {
+    "id": 5,
+    "year": "2022 - 2023",
+    "title": "NCC Level 4 Diploma in Computing (UK)",
+    "description": "I recently achieved another diploma in the computing field by passing the NCC Level 4 Computing Diploma with flying colors."
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "year": "2022 (March) - 2022 (June)",
+    "title": "Internship",
+    "description": "I secured my first unpaid internship at  Co. Ltd, where I worked as a full-stack web developer. During this time, I successfully completed four projects utilizing HTML, CSS, JavaScript, and C#."
+  },
+  {
+    "id": 2,
+    "year": "2022 (July) - 2022 (August)",
+    "title": "Assitant Web Developmer",
+    "description": "After I completed my internship I had to go back to my studies. Therefore, my full-time Job as a Junior Developer was abit late.But I luckily gained my fist Job at KBZ bank software team, soon I was promoted to mid-level Develper where I exprtised in ReactJS and NextJS"
+  },
+  {
+    "id": 3,
+    "year": "2022 (August) - 2024 (November)",
+    "title": "Full Stack Web Developer",
+    "description": "Initially, I started my journey as a Junior Web Developer at Myanmar ICT Solutions Co. Ltd. Through dedication and hard work, I was later promoted to the position of Mid-Level Developer. During my tenure, I made significant contributions to eight projects, utilizing technologies such as Laravel, CodeIgniter, React, jQuery, and others."
+  },
+  {
+    "id": 4,
+    "year": "2024 (December) - 2024 (March)",
+    "title": "Senior PHP Developer",
+    "description": "Recently, I transitioned to MySol Co. Ltd, a Japan-based company, where I assumed the role of Senior PHP Developer. However, amidst political changes, I found it necessary to contemplate pursuing my career path in another country."
+  }
+]

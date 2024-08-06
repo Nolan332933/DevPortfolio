@@ -3,7 +3,7 @@ import Service from "../../componets/service/Service";
 
 export const metadata = {
   title: "Nolan - Service",
-  description: "Service Page of Min Nolan's Portfolio",
+  description: "Service Page of Nolan's Portfolio",
 };
 
 const page = () => {

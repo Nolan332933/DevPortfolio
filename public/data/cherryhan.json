@@ -1,0 +1,24 @@
+{
+  "id": 10,
+  "title": "Cherry Han",
+  "short_desc": "Delivery Service with different kinds of business, integrated with React, Laravel, Bootstrap, Mysql. ",
+  "image": "/image/projects/cherryhan.png",
+  "project_img": {
+    "main": "/image/projects/mmchatai/main",
+    "imageone": "/image/projects/mmchatai/imageone",
+    "imagetwo": "/image/projects/mmchatai/imagetwo"
+  },
+  "project_desc": "This application functions as a service platform, with its frontend developed using React and its backend implemented using Laravel. The app provides a comprehensive range of services, encompassing hiring tracks and cars, delivering products with diverse specifications, and facilitating hotel bookings.",
+  "project_tech": ["React", "Laravel", "Mysql", "Bootstrap5", "Restful Api"],
+  "project_challenge": {
+    "intro": "The primary challenge encountered in this project lies in my inaugural utilization of React within a production environment. My involvement primarily pertains to the complete development of the frontend component, alongside contributions to select segments of API production, specifically focusing on authentication and the integration of a coin system.",
+    "short_desc": "Additionally, a noteworthy challenge entails the adept management of authentication tokens within the frontend to ensure a secure and streamlined login system. Despite these hurdles, the project presents itself as both straightforward and engaging, offering valuable opportunities to augment my proficiency in frontend development."
+  },
+  "client": "Cherry Han",
+  "content": "",
+  "date": "30-01-2023",
+  "category": "Business",
+  "location": "Myanmar ICT Solutions",
+  "website_url": "Not Provided",
+  "gitlink": "Not Provided"
+}

@@ -1,0 +1,24 @@
+{
+  "id": 4,
+  "title": "Media Website",
+  "short_desc": "Media platform with payment integration and facebook like features. Laravel, Jquery, Bootstrap",
+  "image": "/image/projects/thumbnails/media.jpg",
+  "project_img": {
+    "main": "/image/projects/media/main.png",
+    "imageone": "/image/projects/media/imageone.png",
+    "imagetwo": "/image/projects/media/imagetwo.png"
+  },
+  "project_desc": "This media website bears resemblance to prominent platforms such as BBC and CNN, offering users the ability to view, comment on, and share posts. However, it boasts an additional feature: users can submit reports to the media, which, upon approval by administrators, become publicly visible. Remarkably, contributors are compensated for their reports. Furthermore, as users demonstrate greater reliability in their reporting, the system promotes them to the status of amateur reporters, with payment determined by a star rating system established within the platform.Users also enjoy the convenience of selecting their preferred language for posts, with options available in both Myanmar and English. While certain posts are freely accessible, others are designated as premium content, requiring payment for access. To facilitate this, the platform seamlessly integrates with a local payment service known as BP Payment. Additionally, SMS services are integrated to enhance user engagement and communication.In essence, the platform bears semblance to a miniature Facebook system, offering a captivating and multifaceted development experience.",
+  "project_tech": ["Laravel", "Jquery", "Bootstrap4"],
+  "project_challenge": {
+    "intro": "Video uploading process is the main problem in this project.",
+    "short_desc": "The client's initial challenge stemmed from the substantial cost associated with maintaining their own server for hosting uploaded videos. To mitigate this expense, a strategic solution was devised: leveraging the URLs of established video uploading services such as YouTube and Mtube. By incorporating these external platforms, the client effectively circumvented the need for an extensive and costly server infrastructure. Another significant adjustment pertained to the restructuring of the reporter role within the system. Originally, the system featured distinct roles for administrators and reporters, with reporters responsible for creating posts and administrators tasked with post approval. However, a revised approach was implemented, granting users dual roles as both regular users and reporters. This modification streamlined the workflow, enhancing user engagement and content creation. Additionally, a minor but noteworthy challenge involved transitioning from Laravel 8 to Laravel 9. While numerous services facilitate instantaneous Laravel version updates, the client opted to forego such solutions due to budgetary considerations. Instead, the transition was managed manually, ensuring seamless compatibility and functionality across the platform. Despite these adjustments, integrating payment gateways and SMS services posed minimal difficulty, with both functionalities seamlessly incorporated into the system architecture. These features enhance user interaction and facilitate financial transactions with ease and efficiency."
+  },
+  "client": "Anonymous",
+  "content": "",
+  "date": "05-12-2022",
+  "category": "Media",
+  "location": "Myanmar ICT Solutions",
+  "website_url": "https://nssmy.com",
+  "gitlink": "https://github.com/Newstein123/mmdailytimes"
+}

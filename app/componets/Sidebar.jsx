@@ -4,7 +4,7 @@ import Image from "next/image";
 import Social from "./Social";
 import Link from "next/link";
 import data from "../../public/data/navbar";
-import ProfileImage from "../../public/image/profile.png";
+import ProfileImage from "../../public/image/profile2.png";
 // import QrCode from "../../public/image/qrcode/whatsapp_qrcode.jpg";
 import { usePathname } from "next/navigation";
 
@@ -27,7 +27,7 @@ const Sidebar = () => {
             priority
           />
           <h3 className="font-bold text-slate-200 text-center text-xl mt-3">
-            Min Thet Paing
+            Kaung Myat Kywal
           </h3>
         </div>
         {/* navbar  */}

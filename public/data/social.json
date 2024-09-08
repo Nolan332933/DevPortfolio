@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "icon": "<FaFacebookF />",
+    "link": "https://www.facebook.com/profile.php?id=100077580763408"
+  },
+  {
+    "id": 1,
+    "icon": "<FaInstagram />",
+    "link": "https://www.instagram.com/nolan_shelby81/"
+  },
+  {
+    "id": 2,
+    "icon": "<FaLinkedin />",
+    "link": "https://www.linkedin.com/in/kaung-myat-kywal-894a76275/"
+  },
+  {
+    "id": 3,
+    "icon": "<FaTelegram />",
+    "link": "https://www.facebook.com/profile.php?id=100077580763408"
+  }
+]

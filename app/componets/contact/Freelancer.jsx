@@ -4,9 +4,9 @@ const Freelancer = () => {
   return (
     <div className="text-slate-300">
       <div className="flex flex-wrap">
-        <a href="https://www.freelancer.com/affiliates/email/76628469/">
+        <a href="https://www.freelancer.com/u/Nolan332933">
           <img
-            src="https://cdn6.f-cdn.com/ppic/249545628/logo/76628469/profile_logo_76628469.jpg"
+            src="https://cdn6.f-cdn.com/ppic/249545628/logo/78227726/profile_logo_78227726.jpg"
             style={{
               float: "left",
               marginRight: 20,
@@ -20,9 +20,9 @@ const Freelancer = () => {
         <div style={{ minHeight: 40 }}>
           <a
             style={{ textDecoration: "underline", fontWeight: "bold" }}
-            href="https://www.freelancer.com/affiliates/email/76628469/"
+            href="https://www.freelancer.com/affiliates/email/78227726/"
           >
-            Min Thet Paing
+            Kaung Myat Kywal
           </a>
           <p
             style={{
@@ -32,17 +32,17 @@ const Freelancer = () => {
               overflow: "hidden",
             }}
           >
-            Laravel Expect
+            React, Node
           </p>
           <p style={{ margin: 0 }}>
-            <strong>P:</strong> 948199869
+            <strong>P:</strong> +66966498913
           </p>
           <p style={{ margin: 0 }}>
-            <strong>E:</strong> minthetpaing376@gmail.com
+            <strong>E:</strong> nolanshelby81@gmail.com
           </p>
           <p style={{ margin: 0 }}>
             <strong>A:</strong>
-            157 Petchkasem 42 yak 1 Bangjak Phasrijareon Bangkok 10160
+            Wattanavit Place, SukSawat(40), Bangkok 10110
           </p>
         </div>
       </div>
@@ -51,7 +51,7 @@ const Freelancer = () => {
         style={{ clear: "left", float: "left", margin: "10px 0" }}
       />
       <a
-        href="https://www.freelancer.com/affiliates/email/76628469/"
+        href="https://www.freelancer.com/affiliates/email/78227726/"
         style={{
           display: "block",
           textDecoration: "underline",

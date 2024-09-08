@@ -1,9 +1,9 @@
 import User from "@/models/user";
 import Category from "@/models/category";
 import Post from "@/models/post";
-import apiResponse from "@/utlis/apiResponse";
-import { connnectedToDB } from "@/utlis/db";
-import { getUserInfo } from "@/utlis/getUserInfo";
+import apiResponse from "@/utils/apiResponse";
+import { connnectedToDB } from "@/utils/db";
+import { getUserInfo } from "@/utils/getUserInfo";
 import { put } from "@vercel/blob";
 import { sanitizeHtml } from "@/app/libs/sanitizedHtml";
 

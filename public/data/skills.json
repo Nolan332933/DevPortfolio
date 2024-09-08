@@ -1,0 +1,100 @@
+[
+  {
+    "id": 1,
+    "name": "HTML",
+    "logo": "/image/svg/html.svg",
+    "percentage": "90",
+    "color": "yellow"
+  },
+  {
+    "id": 2,
+    "name": "CSS",
+    "logo": "/image/svg/css.svg",
+    "percentage": "80",
+    "color": "blue"
+  },
+  {
+    "id": 10,
+    "name": "Bootstrap",
+    "logo": "/image/svg/bootstrap.svg",
+    "percentage": "90",
+    "color": "purple"
+  },
+  {
+    "id": 11,
+    "name": "Tailwind CSS",
+    "logo": "/image/svg/tailwind.svg",
+    "percentage": "100",
+    "color": "cyan"
+  },
+  {
+    "id": 3,
+    "name": "Javascript",
+    "logo": "/image/svg/js.svg",
+    "percentage": "90",
+    "color": "yellow"
+  },
+  {
+    "id": 4,
+    "name": "PHP",
+    "logo": "/image/svg/php.svg",
+    "percentage": "75",
+    "color": "indigo"
+  },
+  {
+    "id": 5,
+    "name": "Laravel",
+    "logo": "/image/svg/laravel.svg",
+    "percentage": "75",
+    "color": "red"
+  },
+  {
+    "id": 13,
+    "name": "CodeIgniter",
+    "logo": "/image/svg/codeigniter.svg",
+    "percentage": "90",
+    "color": "red"
+  },
+  {
+    "id": 6,
+    "name": "React",
+    "logo": "/image/svg/react.svg",
+    "percentage": "80",
+    "color": "cyan"
+  },
+  {
+    "id": 12,
+    "name": "NextJS",
+    "logo": "/image/svg/nextjs.svg",
+    "percentage": "85",
+    "color": "dark"
+  },
+  {
+    "id": 12,
+    "name": "InertiaJS",
+    "logo": "/image/svg/inertiajs.png",
+    "percentage": "90",
+    "color": "indigo"
+  },
+  {
+    "id": 7,
+    "name": "Node Js",
+    "logo": "/image/svg/nodejs.svg",
+    "percentage": "70",
+    "color": "green"
+  },
+  {
+    "id": 8,
+    "name": "MySql",
+    "logo": "/image/svg/mysql.svg",
+    "percentage": "85",
+    "color": "yellow"
+  },
+  {
+    "id": 9,
+    "name": "MongoDB",
+    "logo": "/image/svg/mongo.svg",
+    "percentage": "70",
+    "color": "green"
+  }
+]

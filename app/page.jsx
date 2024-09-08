@@ -5,18 +5,18 @@ import Footer from "./componets/parts/Footer";
 import ScrollUpButton from "./utlis/ScrollUpButton";
 
 export const metadata = {
-  title: "Min Thet Paing - Home",
-  description: "Home Page of min thet paing portfolio",
+  title: "Kaung Myat Kywal",
+  description: "Home Page of Nolan's portfolio",
   generator: "Next.js",
-  applicationName: "Min Thet Paing's Portfolio",
+  applicationName: "Nolan's Portfolio",
   referrer: "origin-when-cross-origin",
   keywords: ["nolan", "web developer", "myanmar", "programmer", "noaln dev"],
   creator: "Nolan",
   publisher: "Nolan",
   openGraph: {
-    title: "Min Thet Paing",
+    title: "Nolan's Portfolio",
     description:
-      "Experienced full stack web developer with three years of expertise in front-end and back-end technologies. Skilled in JavaScript frameworks like React, Laravel and Node.js, with a focus on building robust and interactive web applications. Passionate about continuous learning and staying updated with the latest trends in web development.",
+      "Experienced full stack web developer with three years of expertise in front-end and back-end technologies. Skilled in JavaScript frameworks like React, TypeScript and Node.js, with a focus on building robust and interactive web applications. Passionate about continuous learning and staying updated with the latest trends in web development.",
     url: "https://nolan.com",
     siteName: "Nolan",
     images: [

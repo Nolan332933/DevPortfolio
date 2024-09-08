@@ -3,7 +3,7 @@
     "id": 1,
     "year": "2022 (March) - 2022 (June)",
     "title": "Internship",
-    "description": "I secured my first unpaid internship at  Co. Ltd, where I worked as a full-stack web developer. During this time, I successfully completed four projects utilizing HTML, CSS, JavaScript, and C#."
+    "description": "I secured my first unpaid internship at KBZ Bank Co. Ltd, where I worked as a full-stack web developer. During this time, I successfully completed four projects utilizing HTML, CSS, JavaScript, and C#."
   },
   {
     "id": 2,
@@ -20,7 +20,7 @@
   {
     "id": 4,
     "year": "2024 (December) - 2024 (March)",
-    "title": "Senior PHP Developer",
-    "description": "Recently, I transitioned to MySol Co. Ltd, a Japan-based company, where I assumed the role of Senior PHP Developer. However, amidst political changes, I found it necessary to contemplate pursuing my career path in another country."
+    "title": "Senior React Developer",
+    "description": "Recently, I transitioned to MySol Co. Ltd, a Japan-based company, where I assumed the role of Senior React Developer. However, amidst political changes, I found it necessary to contemplate pursuing my career path in another country."
   }
 ]

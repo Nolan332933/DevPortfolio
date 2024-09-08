@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { AiOutlineArrowRight } from "react-icons/ai";
-import { renderTransition } from "@/app/helper/helper";
+import { renderTransition } from "../../helper/helper";
 
 const ProjectItem = ({ item, index }) => {
   return <CardItemTwo item={item} index={index} />;

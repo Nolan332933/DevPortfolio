@@ -19,7 +19,7 @@ const ContactForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
-    const res = await axios.post("https://formspree.io/f/xdorvyad", form);
+    const res = await axios.post("https://formspree.io/f/xdorvyade", form);
     console.log(res);
     if (res.status == 200) {
       setForm({

@@ -21,17 +21,17 @@ const socials = [
   {
     id: 2,
     icon: <FaInstagram />,
-    link: "https://www.facebook.com/profile.php?id=100077580763408",
+    link: "https://www.linkedin.com/in/kaung-myat-kywal-894a76275/",
   },
   {
     id: 3,
     icon: <FaLinkedin />,
-    link: "https://www.facebook.com/profile.php?id=100077580763408",
+    link: "https://www.linkedin.com/in/kaung-myat-kywal-894a76275/",
   },
   {
     id: 4,
     icon: <FaTelegram />,
-    link: "https://www.facebook.com/profile.php?id=100077580763408",
+    link: "https://www.linkedin.com/in/kaung-myat-kywal-894a76275/",
   },
 ];
 const MobileNavbar = () => {
@@ -41,7 +41,7 @@ const MobileNavbar = () => {
     <div className="sticky top-0 z-50">
       <div className="md:hidden p-3 bg-violet-700 shadow-md shadow-violet-500">
         <div className="flex justify-between items-center">
-          <p> Min Thet Paing</p>
+          <p> Nolan</p>
           <div className="flex justify-between items-center">
             {socials.map((item) => (
               <Link key={item.id} href={item.link} className="mx-2">

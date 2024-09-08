@@ -1,4 +1,5 @@
-import Title from "@/app/utlis/Title";
+import Title from "../../utils/Title";
+
 import React from "react";
 import education from "../../../public/data/education.json";
 import experience from "../../../public/data/experience.json";

@@ -1,6 +1,6 @@
 import Category from "@/models/category";
-import apiResponse from "@/utlis/apiResponse";
-import { connnectedToDB } from "@/utlis/db";
+import apiResponse from "@/utils/apiResponse";
+import { connnectedToDB } from "@/utils/db";
 
 export async function GET() {
   await connnectedToDB();

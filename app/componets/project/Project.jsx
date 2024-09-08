@@ -1,10 +1,10 @@
 "use client";
-import Title from "@/app/utlis/Title";
+import Title from "../../utils/Title";
 import React, { useEffect, useState } from "react";
 import data from "../../../public/data/project";
 import ProjectItem from "./ProjectItem";
 import { usePathname } from "next/navigation";
-import Button from "@/app/utlis/Button";
+import Button from "../../utils/Button";
 
 const Project = () => {
   const perPage = 9;

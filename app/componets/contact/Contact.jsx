@@ -8,7 +8,8 @@ import {
   FaLinkedin,
   FaTelegram,
 } from "react-icons/fa6";
-import Title from "@/app/utlis/Title";
+import Title from "../../utils/Title";
+
 import ContactForm from "./ContactForm";
 import { FaWhatsapp } from "react-icons/fa";
 import Freelancer from "./Freelancer";
@@ -17,27 +18,27 @@ const data = [
   {
     id: 1,
     icon: <FaFacebookF />,
-    link: "https://www.facebook.com/profile.php?id=100077666327550",
+    link: "https://www.facebook.com/profile.php?id=100077580763408",
   },
   {
     id: 2,
     icon: <FaInstagram />,
-    link: "https://www.instagram.com/newstein26?igsh=MWE5OWY4ZmR2dzNjMw%3D%3D&utm_source=qr",
+    link: "https://www.facebook.com/profile.php?id=100077580763408",
   },
   {
     id: 3,
     icon: <FaLinkedin />,
-    link: "www.linkedin.com/in/min-thet-paing-793738241",
+    link: "https://www.linkedin.com/in/kaung-myat-kywal-894a76275/",
   },
   {
     id: 4,
     icon: <FaTelegram />,
-    link: "https://t.me/alpha27century",
+    link: "https://www.linkedin.com/in/kaung-myat-kywal-894a76275/",
   },
   {
     id: 5,
     icon: <FaWhatsapp />,
-    link: "https://wa.me/+6588571785 ",
+    link: "https://wa.me/+66969498913",
   },
 ];
 
@@ -62,7 +63,7 @@ const Contact = () => {
                     Address
                   </h1>
                   <p className="text-slate-500 text-justify">
-                    157 Petchkasem 42 yak 1 Bangjak Phasrijareon Bangkok 10160
+                    SukSawat(40), Wattanavit Place
                   </p>
                 </div>
                 {/* contact info  */}
@@ -76,7 +77,7 @@ const Contact = () => {
                       href="phoneto:+6588571785"
                       className="text-slate-500 text-sm"
                     >
-                      +6588571785
+                      +66966498913
                     </a>
                   </div>
                   <div className="mt-3">
@@ -88,7 +89,7 @@ const Contact = () => {
                       href="mailto:minthetpaing376@gmail.com"
                       className="text-slate-500 text-sm"
                     >
-                      minthetpaing376@gmail.com
+                      nolanshelby81@gmail.com
                     </a>
                   </div>
                 </div>

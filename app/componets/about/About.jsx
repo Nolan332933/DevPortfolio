@@ -1,7 +1,8 @@
 "use client";
-import Title from "@/app/utlis/Title";
+import Title from "../../utils/Title";
+
 import { LiaDownloadSolid } from "react-icons/lia";
-import ProfileImg from "../../../public/image/profile.png";
+import ProfileImg from "../../../public/image/profile2.png";
 import Image from "next/image";
 import CountUp from "react-countup";
 import ScrollTrigger from "react-scroll-trigger";
@@ -13,12 +14,12 @@ import { BsEye } from "react-icons/bs";
 const data = [
   {
     id: 1,
-    number: 3,
+    number: 4,
     name: "Years Experience",
   },
   {
     id: 2,
-    number: 5,
+    number: 10,
     name: "Happy Clients",
   },
   {
@@ -28,7 +29,7 @@ const data = [
   },
   {
     id: 4,
-    number: 2,
+    number: 7,
     name: "Rewards",
   },
 ];
@@ -44,21 +45,20 @@ const About = () => {
         <div className="lg:w-2/3">
           <div className="mx-10 md:mx-20">
             <h1 className="text-2xl text-slate-800 font-bold">
-              I'm
+              I'm a
               <span className="text-2xl text-violet-700 ms-3">
-                Min Thet Paing
+                Full-stack Developer
               </span>
-              , a Full Stack Web Developer
+              . My focus is ReactJs, NodeJs.
             </h1>
             <br />
             <p
               data-aos="fade-up"
               className="text-slate-500 leading-loose text-justify font-semibold"
             >
-              I have a genuine passion for technology and innovation. With a
-              background in marine electrical and electronics studies at Myanmar
-              Maritime University, I've always been fascinated by the
-              possibilities of technology.
+              I have a genuine passion for technologies and innovation. With a
+              background in elctronic studies at Yangon Technology University,
+              I've always been fascinated by the possibilities of technology.
             </p>
             <br />
             <div className="flex flex-wrap flex-col-reverse md:flex-row-reverse">
@@ -74,15 +74,15 @@ const About = () => {
                   prompting me to transition my career to become a web
                   developer. From teaching web development assignments at MST
                   University to making significant contributions to web
-                  application development at Myanmar ICT Solutions Co. Ltd. for
-                  two and a half-year, I've
+                  application development at KBZ Bank Co. Ltd. for two and a
+                  half-year, I've
                 </p>
               </div>
               <div data-aos="flip-up" className="lg:w-1/2">
                 <Image
                   src={ProfileImg}
-                  width={400}
-                  height={400}
+                  width={200}
+                  height={200}
                   alt="profile_img"
                 />
               </div>
@@ -113,7 +113,10 @@ const About = () => {
               <div className="relative">
                 <div className="mb-2 py-3">
                   <span className="font-bold text-slate-800"> Name: </span>
-                  <span className="ms-3 text-slate-500"> Min Thet Paing </span>
+                  <span className="ms-3 text-slate-500">
+                    {" "}
+                    Kaung Myat Kywal{" "}
+                  </span>
                 </div>
                 <span className="absolute bottom-0 left-0 bg-slate-500 w-3/4 h-[2px]"></span>
               </div>
@@ -132,7 +135,7 @@ const About = () => {
               <div className="relative">
                 <div className="mb-2 py-3">
                   <span className="font-bold text-slate-800"> Age: </span>
-                  <span className="ms-3 text-slate-500"> 25 </span>
+                  <span className="ms-3 text-slate-500"> 23 </span>
                 </div>
                 <span className="absolute bottom-0 left-0 bg-slate-500 w-3/4 h-[2px]"></span>
               </div>
@@ -140,10 +143,10 @@ const About = () => {
                 <div className="mb-2 py-3">
                   <span className="font-bold text-slate-800"> From: </span>
                   <span className="ms-3 text-slate-500">
-                    157 Petchkasem 42 yak 1 Bangjak
+                    Suksawat-40, Bangkok
                   </span>
                   <span className="ms-3 text-slate-500 block">
-                    Phasrijareon Bangkok 10160
+                    Wattanavit Place
                   </span>
                 </div>
                 <span className="absolute bottom-0 left-0 bg-slate-500 w-3/4 h-[2px]"></span>
@@ -154,8 +157,8 @@ const About = () => {
           <div className="mx-10 flex justify-start gap-2">
             <div className="text-center mt-10">
               <a
-                href="/pdf/minthetpaing_cv.pdf"
-                download="MinThetPaingCV.pdf"
+                href="/pdf/kmk_cv.pdf"
+                download="KaungMyatCV.pdf"
                 className="py-3 px-4 bg-violet-700 text-white transition-all ease-out delay-100  rounded-3xl shadow-md shadow-violet-500 hover:bg-red-400"
               >
                 Download CV <LiaDownloadSolid className="inline" />
@@ -163,7 +166,7 @@ const About = () => {
             </div>
             <div className="text-center mt-10">
               <a
-                href="/pdf/minthetpaing_cv.pdf"
+                href="/pdf/kmk_cv.pdf"
                 target="_blank"
                 title="MinThetPaingCV"
                 className="py-3 px-4 bg-violet-700 text-white transition-all ease-out delay-100  rounded-3xl shadow-md shadow-violet-500 hover:bg-red-400"

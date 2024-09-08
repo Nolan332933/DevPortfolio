@@ -2,14 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Google Fonts Import */
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Myanmar:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
+/* Flowbite CSS Import */
+@import "flowbite/dist/flowbite.min.css";
+
+/* Root CSS Variables */
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-  --primary-color: "#7F3AF2";
-  --secondary-color: ;
+  --primary-color: #7f3af2; /* Main primary color */
+  --secondary-color: #ff5733; /* Random color, you can change it if needed */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -20,6 +25,7 @@
   }
 }
 
+/* Utility Classes */
 .bg-primary {
   background-color: var(--primary-color);
 }
@@ -28,6 +34,37 @@
   color: var(--primary-color);
 }
 
+.bg-secondary {
+  background-color: var(--secondary-color);
+}
+
+.text-secondary {
+  color: var(--secondary-color);
+}
+
+/* Global Body Styles */
 body {
+  color: var(--foreground-rgb);
+  font-family: "Noto Serif Myanmar", serif;
+  background: linear-gradient(
+    to bottom,
+    rgb(var(--background-start-rgb)),
+    rgb(var(--background-end-rgb))
+  );
+}
+
+/* Custom Progress Bar Styling */
+.progress-bar {
+  background-color: var(--primary-color);
+}
+
+/* Additional Component Styling (Optional) */
+.btn-primary {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.btn-secondary {
+  background-color: var(--secondary-color);
   color: white;
 }

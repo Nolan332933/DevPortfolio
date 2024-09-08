@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import HeroImage from "../../../public/image/hero.png";
 import { Typewriter } from "react-simple-typewriter";
-import Button from "@/app/utlis/Button";
+import Button from "../../utils/Button";
 
 const HeroSection = () => {
   return (
@@ -10,18 +10,22 @@ const HeroSection = () => {
       <Image
         src={HeroImage}
         alt="HeroImage"
-        className="min-h-screen object-cover opacity-50 md:opacity-100 object-center-right"
+        className="min-h-screen object-cover md:opacity-70 object-center-right opacity-70"
       />
       <div className="text-center absolute top-1/2 text-white w-full md:w-2/3 translate-y-[-50%]">
         <div className="text-2xl">
           {" "}
-          Welcome, <span> I am Min Thet Paing </span>
+          Hello, my soon-to-be co-workers!{" "}
+          <span>
+            {" "}
+            I am <span className="text-3xl text-black-700">Nolan</span>
+          </span>
         </div>
-        <h1 style={{ fontSize: "60px" }} className="font-bold mt-10">
+        <h1 style={{ fontSize: "45px" }} className="font-bold mt-10">
           I am
           <span className="ms-3 text-violet-700">
             <Typewriter
-              words={["Full Stack", "Laravel", "NodeJs", "React"]}
+              words={["Full-stack", "C#", "React", "Laravel", "Node"]}
               loop={false}
               cursor
               cursorStyle="|"

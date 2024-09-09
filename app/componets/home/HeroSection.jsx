@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import HeroImage from "../../../public/image/hero.png";
+import HeroImage from "../../../public/image/hero-one.png";
 import { Typewriter } from "react-simple-typewriter";
 import Button from "../../utils/Button";
 
@@ -10,7 +10,7 @@ const HeroSection = () => {
       <Image
         src={HeroImage}
         alt="HeroImage"
-        className="min-h-screen object-cover md:opacity-70 object-center-right opacity-70"
+        className="min-h-screen object-cover md:opacity-100 object-center-right opacity-100"
       />
       <div className="text-center absolute top-1/2 text-white w-full md:w-2/3 translate-y-[-50%]">
         <div className="text-2xl">

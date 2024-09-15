@@ -2,7 +2,7 @@
   {
     "id": 1,
     "year": "2015 - 2020",
-    "title": "Bachelor Degree of Yangon Technology University (Myanmar)",
+    "title": "B.E Degree of Yangon Technology University (Myanmar)",
     "description": "I pursued Electrical Enginnering at Yangon Technology University, reaching the final year. Unfortunately, due to political unrest in my country, I was unable to obtain my degree."
   },
   {
@@ -16,5 +16,11 @@
     "year": "2022 - 2023",
     "title": "European International University(EIU)",
     "description": "I've also achieved Bachelor in the Information Technology of which I pursued with my passion in WebProgramming scoring high marks as usual."
+  },
+  {
+    "id": 4,
+    "year": "2024",
+    "title": "FreeCodeCamp Certifications",
+    "description": "I've been pursueing FreeCodeCamp Cirriculum since I was in University as a back-up and now I've completed every circulum by the end of 2023."
   }
 ]

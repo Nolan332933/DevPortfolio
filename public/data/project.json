@@ -35,7 +35,7 @@
     },
     "project_desc": "MMChatAi is a fascinating project that leverages various technologies to enable human-like conversation in both Myanmar and English languages. Integrating ChatGPT API with Google Translate is a clever approach to handling multilingual conversations. However, if the system struggles with text streamlining compared to a real ChatGPT, it may be worth exploring further optimization techniques or refining the integration to enhance the user experience.With over a thousand daily users, MMChatAi seems to be making a significant impact, especially in Myanmar where access to advanced language processing technologies might be limited. Continuous improvement and user feedback will likely be crucial in refining the system and making it even more effective over time.",
     "project_tech": [
-      "Laravel",
+      "Expressjs",
       "Jquery",
       "Mysql",
       "Bootstrap5",
